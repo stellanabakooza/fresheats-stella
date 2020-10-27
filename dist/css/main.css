@@ -1,0 +1,16 @@
+body{background-color: #45dc45;}
+li{
+    display: inline;
+    text-align: center;
+  }
+header{text-decoration-skip-ink: opera 40;}
+  h1{
+      display: inline;
+      scroll-padding-block-start: 50rem;
+      text-align:center;
+      text-decoration: brown;
+      text-decoration-skip: opera 50;
+
+  }
+  
+/*# sourceMappingURL=main.css.map */
