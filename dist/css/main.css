@@ -1,16 +1,39 @@
-body{background-color: #45dc45;}
-li{
-    display: inline;
-    text-align: center;
+body{background-color:rgb(201, 241, 242);}
+@media (min-width: 650px) {
+  .flex-container {
+    flex-direction: column;
   }
-header{text-decoration-skip-ink: opera 40;}
-  h1{
-      display: inline;
-      scroll-padding-block-start: 50rem;
-      text-align:center;
-      text-decoration: brown;
-      text-decoration-skip: opera 50;
+}
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
 
-  }
+
+header{text-align: center;
+        display: block;
+        padding:10px
+}
+ 
+        
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 110%;
+      height: 100px;
+      background: #6cf;
+      text-align: center;
+      padding: 10px;
+      background-color: #7ac5e9;
+      color: rgb(255, 255, 255);
+      }
+    
+
+    
+
+
+    
+    
   
 /*# sourceMappingURL=main.css.map */
